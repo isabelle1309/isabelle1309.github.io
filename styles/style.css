@@ -28,12 +28,17 @@ body {
 	text-decoration: none;
 }
 
-#cocbasestext {
+#uitext {
 	font-family: "Clash";
 	color: #ff006f;
+	text-align: center;
 }
 
-#cocwrapper {
+#itemwrapper:first-of-type{
+	margin-right: 10px;
+}
+
+#itemwrapper {
 	background: rgba(10, 10, 10, 0.6);
 	border-radius: 25px;
 	padding: 10px;
